@@ -1,0 +1,44 @@
+File Uploading in Node/Express
+
+What is a File ?
+
+Everything in a computer is in the form of a file
+
+Eg. IMage
+		PDF
+			Video
+			index.js
+
+
+File Is a very large Data
+
+
+Get Request Handles only 2048 characters
+
+Development Senario
+Client(Postman) ------- File (Thumbnail.PNG) ------> Server(Node/Express)
+																			1.Same Server
+																			2.3rd party Server	
+																					2.1 Amazon  S3 (File Storage)
+   																							Simple Storage Service
+																					2.2 Google GCP (Google Cloud Platform)
+																					2.3 Microsoft  ??
+												
+																							
+																						
+
+
+
+Production Senario
+Client(ReactJS/AngularJS/VueJS) ------- File ------> Server(Node/Express)
+
+
+https://www.npmjs.com/package/multer
+
+https://github.com/expressjs/multer
+
+
+
+./uploads
+
+/uploads
